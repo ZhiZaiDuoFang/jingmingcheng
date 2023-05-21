@@ -1,0 +1,83 @@
+/* CSS Document */
+
+h1.top {
+	color: brown
+}
+
+h2.top {
+	color: aliceblue;
+}
+
+div.a {
+	border: 1px solid #ccc!important;
+	padding:2px;
+	border-radius: 16px!important;
+}
+
+div.b {
+	border: 1px solid #ccc!important;
+	border-color: #000!important;
+	padding: 2px;
+}
+
+div.header {
+	background-color: cornflowerblue;
+	padding: 5px;
+	text-align: center;
+}
+
+
+/* 导航条 */
+div.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+ 
+/* 导航链接 */
+div.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ 
+/* 链接 - 修改颜色 */
+div.topnav a:hover {
+  background-color: #0184FF;
+  color: #f2f2f2;
+}
+
+
+/* 创建相等的列 */
+.column {
+  float: left;
+  width: 33.33%;
+}
+ 
+/* 列后清除浮动 */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ 
+/* 响应式布局 - 小于 x px 时改为上下布局 */
+@media screen and (max-width: 1000px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: left;
+}
+
+/* 创建相等的列 */
+.column_footer {
+  float: left;
+  width: 20%;
+}
