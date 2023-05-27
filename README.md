@@ -1,4 +1,4 @@
-# jingmingcheng.github.io
+# jingmingcheng
 ## 镜明澄 | 开源且公共的学习网站
 
 这是一个开源且公共的学习网站，大家都可以在上面共同学习。
